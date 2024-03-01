@@ -11,6 +11,12 @@
 
 :root {
     font-size: 10px;
+
+    --international-orange:#B91202;
+    --maximum-red:#DF2A19;
+    --philippine-silver:#B3B3B3;
+    --gray:#bebebe;
+    --white:#FFFFFF;
 }
 
 html {
