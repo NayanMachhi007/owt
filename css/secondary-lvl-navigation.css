@@ -1,0 +1,93 @@
+.secondary-navigation {
+    width: 100%;
+    background: var(--black);
+    position: sticky;
+    top: 0;
+}
+
+.secondary-navigation .logo {
+    width: 10rem;
+    height: 10rem;
+}
+
+.secondary-navigation ul {
+    align-items: center;
+    height: 100%;
+}
+
+.secondary-navigation ul li a {
+    color: var(--white);
+    padding: 4rem 4rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    transition: 0.5s;
+}
+
+.secondary-navigation ul li a:hover {
+    color: var(--philippine-silver);
+}
+
+.secondary-navigation ul li .navigation-sub__main {
+
+    position: absolute;
+    top: 9rem;
+    left: 0;
+    height: 85vh;
+    width: 100%;
+    background: var(--black);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0s;
+    overflow: hidden;
+
+}
+
+
+.secondary-navigation ul li:hover .navigation-sub__main {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.8s;
+}
+
+
+
+.secondary-navigation ul li:hover .navigation-sub__main .navigation-sub__right {
+    position: absolute;
+    content: '';
+    animation-name: spain;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    top: 5rem;
+    right: 0;
+}
+
+@keyframes spain {
+
+    0% {
+        top: -100px
+    }
+
+    100% {
+        top: 5rem;
+    }
+
+}
+
+.secondary-navigation ul li .navigation-sub__main .navigation-sub__right {
+    padding: 2rem 4rem;
+}
+
+.secondary-navigation ul li .navigation-sub__main .navigation-sub__right img {
+    height: 20rem;
+    border-radius: 50px 0px 100px 0px;
+}
+
+
+
+.secondary-navigation ul li .navigation-sub__main .navigation-sub__right .navigation-sub-right__details h3{
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 2rem 0;
+}

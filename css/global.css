@@ -16,7 +16,7 @@
     --philippine-silver: #B3B3B3;
     --gray: #bebebe;
     --white: #FFFFFF;
-    --black:#131318;
+    --black: #131318;
 }
 
 html {
@@ -36,6 +36,21 @@ a {
     color: var(--gray);
 }
 
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.f-center {
+    display: flex;
+    align-items: center;
+}
+
+.f-end {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .container {
 
@@ -74,7 +89,7 @@ a {
 }
 
 .col-7 {
-    width: 58.33;
+    width: 58.33%;
 }
 
 .col-6 {
@@ -99,4 +114,9 @@ a {
 
 .col-1 {
     width: 8.33%;
+}
+
+.heading-red {
+    font-weight: 600;
+    color: var(--maximum-red);
 }
