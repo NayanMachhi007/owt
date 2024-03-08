@@ -10,13 +10,20 @@
 }
 
 :root {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 10px;
+
     --international-orange: #B91202;
     --maximum-red: #DF2A19;
     --philippine-silver: #B3B3B3;
     --gray: #bebebe;
     --white: #FFFFFF;
     --black: #131318;
+    --primary-heading-title: 4.5rem;
+    --primary-heading-color: black;
+    --secondary-heading-title: 2.4rem;
+    --secondary-heading-color: grey;
+    
 }
 
 html {
@@ -116,7 +123,19 @@ img {
     width: 8.33%;
 }
 
-.heading-red {
-    font-weight: 600;
-    color: var(--maximum-red);
+
+.primary-heading-title{
+    font-size: var(--primary-heading-title);
+}
+
+.primary-heading-color{
+    color: var(--primary-heading-color);
+}
+
+.secondary-heading-title{
+    font-size: var(--secondary-heading-title);
+}
+
+.secondary-heading-color{
+    color: var(--secondary-heading-color);
 }

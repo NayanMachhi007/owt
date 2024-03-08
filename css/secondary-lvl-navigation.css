@@ -46,7 +46,7 @@
 .secondary-navigation ul li:hover .navigation-sub__main {
     opacity: 1;
     visibility: visible;
-    transition: 0.8s;
+    transition: 0.5s;
 }
 
 
@@ -60,6 +60,7 @@
     animation-iteration-count: 1;
     top: 5rem;
     right: 0;
+    transition: 0.8s;
 }
 
 @keyframes spain {
