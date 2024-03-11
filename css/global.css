@@ -11,7 +11,6 @@
 
 :root {
     font-size: 10px;
-
     --international-orange:#B91202;
     --maximum-red:#DF2A19;
     --philippine-silver:#B3B3B3;
@@ -22,10 +21,7 @@
 html {
     scroll-behavior: smooth;
 }
-
-
-.container {
-
+.container{
     width: 100%;
     max-width: 1280px;
     margin: auto;
