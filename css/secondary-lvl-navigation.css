@@ -1,6 +1,5 @@
 .secondary-navigation {
     width: 100%;
-    background: var(--black);
     /* position: sticky; */
     top: 0;
 }
@@ -16,25 +15,42 @@
 }
 
 .secondary-navigation ul li a {
-    color: var(--white);
+    font-weight: 600;
+    color: var(--dark-blue);
     padding: 4rem 4rem;
     display: inline-block;
     font-size: 1.6rem;
     transition: 0.5s;
 }
 
+.secondary-navigation ul li a::after {
+    display: block;
+    position: relative;
+    bottom: 0;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:var(--dark-blue);
+    transition: all 0.5s;
+    margin:1rem auto;
+}
+
+.secondary-navigation ul li a:hover::after {
+    width: 100%;
+}
+
+
 .secondary-navigation ul li a:hover {
-    color: var(--philippine-silver);
+    color: var(--blue-grotto);
 }
 
 .secondary-navigation ul li .navigation-sub__main {
 
     position: absolute;
-    top: 9rem;
+    top: 13.4rem;
     left: 0;
     height: 85vh;
     width: 100%;
-    background: var(--black);
     opacity: 0;
     visibility: hidden;
     transition: 0s;
@@ -49,46 +65,35 @@
     transition: 0.5s;
 }
 
+.secondary-navigation ul li .navigation-sub__main .nav-sub-details {
+    position: absolute;
+    top: 4rem;
+    width:25%;
+    height: 30rem;
+    padding: 1rem;    
+}
 
-
-.secondary-navigation ul li:hover .navigation-sub__main .navigation-sub__right {
+.secondary-navigation ul li .navigation-sub__main .nav-sub-details::after {
+    background: var(--dark-blue);
     position: absolute;
     content: '';
-    animation-name: spain;
-    animation-duration: 2s;
-    animation-timing-function: ease;
-    animation-iteration-count: 1;
-    top: 5rem;
-    right: 0;
-    transition: 0.8s;
+    width: 1px;
+    right: 0px;
+    top: 0px;
+    height: 100%;
 }
 
-@keyframes spain {
-
-    0% {
-        top: -100px
-    }
-
-    100% {
-        top: 5rem;
-    }
-
+.secondary-navigation ul li .navigation-sub__main .nav-sub-details .heading-3{
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 2.4rem;
 }
 
-.secondary-navigation ul li .navigation-sub__main .navigation-sub__right {
-    padding: 2rem 4rem;
-}
-
-.secondary-navigation ul li .navigation-sub__main .navigation-sub__right img {
-    height: 20rem;
-    border-radius: 50px 0px 100px 0px;
+.secondary-navigation ul li .navigation-sub__main .nav-sub-details .nav-heading__intro{
+    font-size: 1.4rem;
+    text-align: left;
+    padding: 1rem 0;
 }
 
 
 
-.secondary-navigation ul li .navigation-sub__main .navigation-sub__right .navigation-sub-right__details h3{
-    color: var(--white);
-    font-size: 1.8rem;
-    font-weight: 600;
-    padding: 2rem 0;
-}

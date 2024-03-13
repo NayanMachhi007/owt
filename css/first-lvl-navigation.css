@@ -1,7 +1,6 @@
 .navigation {
     /* position: fixed; */
     width: 100%;
-    background: var(--black);
 }
 /* Top Navigation */
 .navigation .top-nav {
@@ -27,10 +26,12 @@
     padding: 1rem 2rem;
     display: inline-block;
     transition: 0.5s;
+    color: var(--blue-grotto);
+    font-size: 1.4rem;
 }
 
 .navigation .top-nav .top-nav__right li a:hover {
-    color: var(--white);
+    color: var(--dark-blue);
 }
 
 /* Top Navigation End */

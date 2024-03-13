@@ -1,3 +1,5 @@
-.main{
-    position:sticky;   
+.main {
+    position: sticky;
+    background: var(--white);
+    color: var(--blue-grotto);
 }
