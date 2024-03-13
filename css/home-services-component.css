@@ -1,0 +1,129 @@
+body{
+    font-family: monospace;
+}
+/* home services main heading   */
+
+.home-services-heading{
+    margin: 0 auto;
+    width: 50%;
+    font-size: var(--primary-heading-title); 
+    padding-bottom: 2rem;
+}
+.home-services-heading_level_three{
+    height: 5.5rem;
+    overflow: hidden;
+    position: relative;
+
+}
+.home-services-heading_level_three_first-word{
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+    animation-name: about-heading-spelling-animation;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1s;
+
+    
+}
+.home-services-heading_level_three_second-word{
+    position: absolute;
+    top: 10rem;
+    left: 29.5rem;
+    animation-name: about-heading-spelling-animation;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+    animation-iteration-count: 1s;
+
+}
+.home-services-heading_level_three_third-word{
+    position: absolute;
+    top: 10rem;
+    left: 36.5rem;
+    animation-name: about-heading-spelling-animation;
+    animation-duration: 0.8s;
+    animation-delay: 0.4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1s;
+}
+@keyframes about-heading-spelling-animation {
+    0%{
+    top: 10rem;
+    }
+    100%{
+        top: 0rem;
+    }
+}
+
+.home-services-heading-sub-text-para{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* home services heading end */
+
+/* card container start */
+.home-services_service-card-container{
+    width: 90%;
+    margin: 3rem auto 0 auto;
+}
+.padding-3{
+    padding:  0 1rem;
+}
+.home-services_service-card_item{
+    width: 100%;
+    /* height: 5rem; */
+    /* border: 1px solid black; */
+    box-shadow: 0 0 5px black;
+    padding: 3rem 2rem;
+    border-radius: 3rem ;
+    
+}
+.home-services_service-card-icon_container{
+
+    display: flex;
+    justify-content: center;    
+}
+.home-services_service-card-icon{
+    width: 8rem;
+    height: 8rem;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.home-services_service-card_title-container{
+    padding: 2rem 0 ;
+}
+.home-services_service-card_title{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.home-services_service-card_title_seprator_container{
+    display: flex;
+    justify-content: center;
+}
+.home-services_service-card_title_seprator{
+    width: 20%;
+    margin: 0 auto;
+    display: inline-block;
+    transition: 0.3s ease;
+    border-bottom: 0.35rem solid black;
+}
+.home-services_service-card-container:hover .home-services_service-card_title_seprator{
+    width: 28%; 
+}
+.home-services_service-card_details_container{
+    padding: 2rem 0 ;
+}
+.home-services_service-card_details_para-container{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+
+}
+
+

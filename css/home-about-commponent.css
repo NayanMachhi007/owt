@@ -103,7 +103,7 @@ a{
 .home-about_title_division_heading_first-spelling{
     position: absolute;
     top: 10rem;
-    transition: linear;
+    /* transition: linear; */
     animation-name: about-heading-spelling-animation  ;
     animation-duration: 0.40s;
     animation-fill-mode: forwards;
