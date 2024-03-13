@@ -66,11 +66,10 @@
 }
 
 .secondary-navigation ul li .navigation-sub__main .nav-sub-details {
-    position: absolute;
-    top: 4rem;
-    width:25%;
+    position: relative;
+    top: 6rem;
     height: 30rem;
-    padding: 1rem;    
+    padding:2rem;
 }
 
 .secondary-navigation ul li .navigation-sub__main .nav-sub-details::after {
@@ -85,14 +84,30 @@
 
 .secondary-navigation ul li .navigation-sub__main .nav-sub-details .heading-3{
     padding: 1rem 0;
-    text-align: center;
+    text-align:left;
     font-size: 2.4rem;
 }
 
+.secondary-navigation ul li .navigation-sub__main .nav-sub-details p a{
+    padding: 1rem 0;
+}
+
 .secondary-navigation ul li .navigation-sub__main .nav-sub-details .nav-heading__intro{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     text-align: left;
     padding: 1rem 0;
+    color: var(--dark-blue);
+    
+}
+
+
+.secondary-navigation ul li .navigation-sub__main .nav-sub-details .nav-link-sub-landing{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+}
+.secondary-navigation ul li .navigation-sub__main .nav-sub-details .nav-link-sub-landing ul li a{
+    padding: 0;
 }
 
 
