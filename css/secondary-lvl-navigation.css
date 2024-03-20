@@ -97,6 +97,14 @@
 
 .secondary-navigation ul li .navigation-sub__main .nav-sub-details p a{
     padding: 1rem 0;
+    font-size:1.4rem;
+    color:var(--black);
+}
+
+.secondary-navigation ul li .navigation-sub__main .nav-sub-details p a:hover{
+    color: var(--blue-grotto);
+    font-weight: 600;
+    transition: 0.5;
 }
 
 .secondary-navigation ul li .navigation-sub__main .nav-sub-details .nav-heading__intro{
@@ -112,10 +120,36 @@
     /* border: 1px solid black; */
     height: 100%;
     width: 100%;
+    padding: 1rem 1rem;
 }
 .secondary-navigation ul li .navigation-sub__main .nav-sub-details .nav-link-sub-landing ul li a{
-    padding: 0;
+    padding: 1rem 0;
+    display: inline-block;
+    color: var(--black);
+    font-size: 1.6rem;
+    position: relative;
 }
+
+.secondary-navigation ul li .navigation-sub__main .nav-sub-details .nav-link-sub-landing ul li a::after{
+    position: absolute;
+    bottom: 2px;
+    content: '';
+    width:0%;
+    height: 3px;
+    background: var(--blue-grotto);
+    left: 0;
+}
+
+.secondary-navigation ul li .navigation-sub__main .nav-sub-details .nav-link-sub-landing ul li a:hover::after{
+    width: 100%;
+    transition: 0.5s;
+}
+/* .secondary-navigation ul li .navigation-sub__main .nav-sub-details .nav-link-sub-landing ul li a:hover{
+    width: fit-content;
+    border-bottom: 1px  solid var(--black);
+    display: inline-block;
+    transition: 0.5s;
+} */
 
 
 
