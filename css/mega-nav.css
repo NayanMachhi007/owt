@@ -3,3 +3,14 @@
     background: var(--white);
     color: var(--blue-grotto);
 }
+
+.main .logo-image{
+    position: absolute;
+    top:-10px;
+    left: 0;
+    width: 150px;
+    height:150px;
+    z-index: 1;
+}
+
+

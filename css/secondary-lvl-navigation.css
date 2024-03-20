@@ -4,6 +4,8 @@
     top: 0;
 }
 
+
+
 .secondary-navigation .logo {
     width: 10rem;
     height: 10rem;
@@ -14,16 +16,21 @@
     height: 100%;
 }
 
-.secondary-navigation ul li a {
+.secondary-navigation ul li .sec-nav-link {
     font-weight: 600;
     color: var(--dark-blue);
     padding: 4rem 4rem;
     display: inline-block;
     font-size: 1.6rem;
     transition: 0.5s;
+
 }
 
-.secondary-navigation ul li a::after {
+.secondary-navigation ul li .sec-nav-link.active{
+    color:green;
+}
+
+.secondary-navigation ul li .sec-nav-link::after {
     display: block;
     position: relative;
     bottom: 0;
@@ -35,12 +42,12 @@
     margin:1rem auto;
 }
 
-.secondary-navigation ul li a:hover::after {
+.secondary-navigation ul li .sec-nav-link:hover::after {
     width: 100%;
 }
 
 
-.secondary-navigation ul li a:hover {
+.secondary-navigation ul li .sec-nav-link:hover {
     color: var(--blue-grotto);
 }
 

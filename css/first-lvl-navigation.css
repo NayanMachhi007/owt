@@ -12,9 +12,10 @@
     content: '';
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 84%;
     height: 1px;
     background: var(--philippine-silver);
+    right: 0;
 }
 
 .navigation .top-nav .top-nav__right ul {
@@ -22,15 +23,20 @@
     justify-content: flex-end;
 }
 
-.navigation .top-nav .top-nav__right li a {
+.navigation .top-nav .top-nav__right li .top-nav-link {
     padding: 1rem 2rem;
     display: inline-block;
     transition: 0.5s;
     color: var(--blue-grotto);
-    font-size: 1.4rem;
+    font-size: 1.7rem;
+    font-weight: 700;
 }
 
-.navigation .top-nav .top-nav__right li a:hover {
+.navigation .top-nav .top-nav__right li .top-nav-link.active{
+    color: green;
+}
+
+.navigation .top-nav .top-nav__right li .top-nav-link:hover {
     color: var(--dark-blue);
 }
 
