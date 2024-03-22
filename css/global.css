@@ -25,6 +25,17 @@
     --black: #131318;
     --primary-heading-title: 4.5rem;
     --secondary-heading-title: 2.4rem;
+    --elephant: #104547;
+        --cinnabar: #E13833;
+        --sea-pink: #F0A19F;
+        --outer-space-heading: #262E2E;
+        --pumice-txt: #C9CAC9;
+        --alabaster-background: #FAFAFA;
+        --white: #FFFFFF;
+        --black: #262E2E;
+        --pale-silver: #D4C8B7;
+        --spanish-gray: #9E9F9F;
+        --anti-glash-white: #F2F2F2;
 }
 
 html {
@@ -125,6 +136,10 @@ img {
     width: 8.33%;
 }
 
+.heading-red {
+    color: var(--cinnabar);
+    font-weight: 600;
+}
 
 .primary-heading-title {
     font-size: var(--primary-heading-title);
