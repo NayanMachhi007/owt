@@ -136,6 +136,10 @@ img {
     width: 8.33%;
 }
 
+.primary-blue-grotto{
+    color: var(--blue-grotto);
+}
+
 .heading-red {
     color: var(--cinnabar);
     font-weight: 600;
