@@ -25,15 +25,17 @@
 
 .navigation .top-nav .top-nav__right li .top-nav-link {
     padding: 1rem 2rem;
-    display: inline-block;
-    transition: 0.5s;
-    color: var(--blue-grotto);
-    font-size: 1.7rem;
-    font-weight: 700;
+        display: inline-block;
+        transition: 0.5s;
+        color: var(--blue-grotto);
+        font-size: 1.5rem;
+        font-weight: 800;
+        color:var(--black);
 }
 
 .navigation .top-nav .top-nav__right li .top-nav-link.active{
-    color: green;
+    color:var(--white);
+    background: var(--blue-grotto);
 }
 
 .navigation .top-nav .top-nav__right li .top-nav-link:hover {
