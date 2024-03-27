@@ -12,7 +12,7 @@
 :root {
     font-family: 'Times New Roman', Times, serif;
     font-size: 10px;
-    --misty-blue:#c3d6db;
+    --misty-blue: #c3d6db;
     --blue-grotto: #276d9b;
     --baby-blue: #b1d4e4;
     --dark-blue: #283049;
@@ -20,22 +20,23 @@
     --international-orange: #B91202;
     --maximum-red: #DF2A19;
     --philippine-silver: #B3B3B3;
-    --gray: #bebebe;    
+    --gray: #bebebe;
     --white: #FFFFFF;
     --black: #131318;
     --primary-heading-title: 4.5rem;
     --secondary-heading-title: 2.4rem;
     --elephant: #104547;
-        --cinnabar: #E13833;
-        --sea-pink: #F0A19F;
-        --outer-space-heading: #262E2E;
-        --pumice-txt: #C9CAC9;
-        --alabaster-background: #FAFAFA;
-        --white: #FFFFFF;
-        --black: #262E2E;
-        --pale-silver: #D4C8B7;
-        --spanish-gray: #9E9F9F;
-        --anti-glash-white: #F2F2F2;
+    --cinnabar: #E13833;
+    --sea-pink: #F0A19F;
+    --outer-space-heading: #262E2E;
+    --pumice-txt: #C9CAC9;
+    --alabaster-background: #FAFAFA;
+    --white: #FFFFFF;
+    --black: #262E2E;
+    --pale-silver: #D4C8B7;
+    --spanish-gray: #9E9F9F;
+    --anti-glash-white: #F2F2F2;
+    --lochmara:#016fbd;
 }
 
 html {
@@ -136,8 +137,8 @@ img {
     width: 8.33%;
 }
 
-.heading-primary-color{
-    color: var(--blue-grotto);
+.heading-primary-color {
+    color: var(--lochmara);
 }
 
 .heading-red {
@@ -153,17 +154,17 @@ img {
     font-size: var(--secondary-heading-title);
 }
 
-.span-heading-dark-blue{
+.span-heading-dark-blue {
     font-size: 1.8rem;
     color: var(--dark-blue);
     font-weight: 700;
 }
 
-.bigtext{
+.bigtext {
     font-size: 1.6rem;
     font-weight: 800;
 }
 
-.underline{
+.underline {
     text-decoration: underline;
 }
