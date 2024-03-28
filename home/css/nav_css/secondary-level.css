@@ -17,18 +17,17 @@
 }
 
 .secondary-navigation ul li .sec-nav-link {
-    padding: 1rem 2rem;
-        display: inline-block;
-        transition: 0.5s;
-        color: var(--blue-grotto);
-        font-size: 1.5rem;
-        font-weight: 800;
-        color: black;
+    font-weight: 600;
+    color: var(--dark-blue);
+    padding: 4rem 4rem;
+    display: inline-block;
+    font-size: 1.4rem;
+    transition: 0.5s;
 
 }
 
 .secondary-navigation ul li .sec-nav-link.active{
-    color:var(--blue-grotto);
+    color:green;
 }
 
 .secondary-navigation ul li .sec-nav-link::after {
@@ -63,6 +62,7 @@
     visibility: hidden;
     transition: 0s;
     overflow: hidden;
+    background-color: var(--white);
 
 }
 

@@ -1,0 +1,108 @@
+/* footer section start  */
+.footer {
+    height: 90vh;
+    width: 100%;
+    background-color: #000;
+}
+
+.footer .footer_layout {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_layout_inner {
+    width: 90%;
+}
+
+/* footer_layout_inner_top */
+.footer_layout_inner_top {
+    height: 70vh;
+
+}
+
+.footer_layout_inner_top .heading {
+    padding: 70px 0px;
+    height: 70vh;
+    font-size: 40px;
+    color: #fff;
+    font-family: roboto, slab;
+    font-weight: 600;
+}
+
+.footer_layout_inner_top .heading>span>button {
+    padding: 7px 70px;
+    border-radius: 50px;
+    border: #fff 2px solid;
+    background-color: #000;
+    font-size: 26px;
+    color: #fff;
+    font-family: roboto, slab;
+    font-weight: 400;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer_layout_inner_top .heading>span>button>a {
+    color:#fff;
+}
+.footer_layout_inner_top .heading>span>button:hover {
+    background-color: #aaa2a5;
+
+}
+.footer_layout_inner_top .top_texts{
+    padding: 70px 0px 0px 35px;
+    height: 70vh;
+}
+.footer_layout_inner_top .top_text {
+    color: #aaa2a5;
+    font-size: 14px;
+    line-height: 33px;
+}
+.footer_layout_inner_top .top_text>ul>li>span {
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+}
+.footer_layout_inner_top .top_text>ul>li>a:hover{
+    color: aqua;
+}
+/* /footer_layout_inner_top */
+/* footer_layout_inner_bottom */
+.footer_layout_inner_bottom {
+    height: 20vh;
+    border-top: 1px solid #141414;
+    color: #aaa2a5;
+    font-family: Encode, Sans, Expanded;
+}
+
+.footer_layout_inner_bottom .bottom_text {
+    padding: 30px 10px 50px 10px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    margin: 10px 10px;
+}
+
+.footer_layout_inner_bottom .bottom_text>ul {
+    display: flex;
+    gap: 50px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer_layout_inner_bottom .bottom_text>ul>li>a:hover {
+    color: aqua;
+}
+
+.footer_layout_inner_bottom .bottom_text1 {
+    padding: 30px 0px 50px 20px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 10px 0px 10px 10px;
+    text-align: right;
+}
+
+/* /footer_layout_inner_bottom */
+/* footer section end  */
