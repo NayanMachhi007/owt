@@ -1,4 +1,5 @@
 .main {
+    z-index: 999;
     position: sticky;
     background: var(--white);
     color: var(--blue-grotto);

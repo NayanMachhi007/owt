@@ -81,6 +81,10 @@
     margin: 1rem 0;
 }
 
+.vertical-slider-main .review-section .review-company-logo img{
+    width: 7rem;
+}
+
 .vertical-slider-main .custom-vertical-slider {
     width: 100%;
     height: 400px;
@@ -133,6 +137,8 @@
     width: 5rem;
     height: 5rem;
 }
+
+
 
 .vertical-slider-main .custom-vertical-slider .swiper-wrapper .swiper-slide .review-image .vertical-person {
     padding: 0rem 1rem;

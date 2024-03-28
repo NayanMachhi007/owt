@@ -53,9 +53,9 @@
 }
 
 .secondary-navigation ul li .navigation-sub__main {
-
+    background: var(--white);
     position: absolute;
-    top: 13.4rem;
+    top:8.4rem;;
     left: 0;
     height: 85vh;
     width: 100%;
