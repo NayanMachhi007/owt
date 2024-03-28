@@ -60,7 +60,7 @@
 
 .banner .swiper .swiper-wrapper .swiper-slide .swiper-slide__content .banner-link {
     padding: 1rem 4rem;
-    border: 1px solid var(--cinnabar);
+    border: 1px solid var(--lochmara);
     color: var(--black);
     font-weight: 800;
     transition: 0;
@@ -70,6 +70,6 @@
 .banner .swiper .swiper-wrapper .swiper-slide .swiper-slide__content .banner-link:hover {
     font-weight: 900;
     padding: 1.2rem 4.5rem;
-    border: 2px solid var(--cinnabar);
+    border: 2px solid var(--lochmara);
     transition: 0.6s;
 }

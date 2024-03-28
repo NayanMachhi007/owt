@@ -29,7 +29,7 @@
     left: 0;
     width: 100%;
     height: 100px;
-    background: url("../../component-images/footer/wave.png");
+    /* background: url("../../component-images/footer/wave.png"); */
 }
 .wave_footer_layout_inner .wave#wave1{
     z-index: 1000;
@@ -90,7 +90,7 @@
     padding: 7px 70px;
     border-radius: 50px;
     border: #fff 2px solid;
-    background-color: #3586ff;
+    background-color: var(--lochmara);
     font-size: 26px;
     color: #fff;
     font-family: roboto, slab;

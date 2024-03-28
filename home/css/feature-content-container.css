@@ -252,16 +252,17 @@
 }
 .industry_we_serve_outerlayer-2::after {
     content: "";
-    top: 10%;
-    left: -35%;
+    top: -4%;
+    left: -100%;
     /* width:950px;
     height: 950px; */
     width: 450px;
-    height: 450px;
+    height: 600px;
     position: absolute;
-    border-radius: 50%;
+    border-radius: 50% 50% 0 0;
     background: #52DBEA;
     opacity: 0.1 ;
+    transform: rotate(90deg);
+
     /* background-image: url(../component-images/feature-content-container/feature-content-component-3-removebg-preview.png); */
-    /* z-index: 3; */
 }
