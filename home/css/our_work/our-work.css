@@ -1,0 +1,149 @@
+/* Roboto Slab
+
+.roboto-slab-<uniquifier> {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+roboto slab end 
+
+Encode Sans Expanded
+{
+font-family: "Encode Sans Expanded", sans-serif;
+} */
+a{
+    text-decoration: none;
+}
+
+.home_our-work-component-section{
+    padding: 3rem  0;
+    /* background-image: url(https://img.freepik.com/free-vector/white-elegant-texture-background-style_23-2148432200.jpg?w=740&t=st=1710765419~exp=1710766019~hmac=b90cfb547e4c95247a7c16195d27a5b081e02e56b25db6c1ed38f59d3589c816); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+}
+/* header*/
+.home_our-work-component-heading-align{
+    display: flex;
+    justify-content: end;
+}
+.home-our-work-section__header_container{
+    width: 100%;
+    font-size: 3rem;
+    font-family: "Roboto Slab", serif;
+    position: relative;
+    overflow: hidden;
+    
+}
+/* .home-our-work-heading-level-two::before{
+    content: " ";
+    position: absolute;
+    left: -6.5rem;
+    bottom: 0;
+    width: 6.5rem;
+    height: 0.5rem;
+    background: linear-gradient(90deg, rgba(66,115,147,1) 17%, rgba(83,150,193,1) 46%, rgba(4,121,195,1) 71%, rgba(0,212,255,1) 100%);
+    transition: 1s ease;
+    animation-name: mainHeadingAnmation_buttom_border;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+@keyframes mainHeadingAnmation_buttom_border {
+    0%{
+        left: -6.5rem;
+    }
+    100%{
+        left: 0;
+    }
+} */
+
+/* header end  */
+
+/* img div start */
+.home-our-work-section__details_sub-container{
+    width: 100%;
+    padding: 5rem 0;
+}
+.home-our-work-section__details_sub-container__case-study-img_container{
+    width: 100%; 
+    /* position: relative;    */
+    /* overflow: hidden; */
+}
+.cash-study-img-align-right{
+    text-align: right;
+}
+.home-our-work-section__details_sub-container__case-study-img-1{
+    width: 64rem;
+    height: 33.5rem;
+    border-radius: 1rem;
+    border: 0.1rem solid #ffffff;
+    /* position: absolute; */
+    /* top: -5rem; */
+
+}
+/* img div end  */
+
+/* case-study-details container   */
+.case-study-detail-container__heading_container{
+    font-size: 3rem;
+}
+.case-study-detail-container__case-study_lebel{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: #666766;
+}
+.case-study-detail-container__case-study_link{
+    margin-top: 3rem;
+    display: block;
+    font-size: 1.5rem;
+    position: relative;
+    color: #016FBD;
+}
+.case-study-detail-container__case-study_link::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\3e";
+
+}
+
+/* <!-- case-study-states start --> */
+
+.case-study-detail-container__card_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+    column-gap: 8.8rem;
+    padding: 4rem 0;
+}
+.case-study-detail-container__card_details{
+    width: 100%;
+    position: relative;
+}
+.case-study-detail-container__card_details::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0.3rem;
+    left: 0;
+    /* background: rgb(66,115,147); */
+    background: var(--blue-grotto);
+    /* background: linear-gradient(90deg, rgba(66,115,147,1) 17%, rgba(83,150,193,1) 46%, rgba(4,121,195,1) 71%, rgba(0,212,255,1) 100%); */
+
+}
+.case-study_card_stats__heading{
+    font-size: 4rem;
+    line-height: 5.6rem;
+}
+.case-study_card_stats__para{
+    font-size: 1.6rem;
+    color: #666766;
+}
+/* <!-- case-study-states end --> */
+.even-card-home-our-work-section__details_sub-container__case-study-img-1{
+    text-align: right;
+}

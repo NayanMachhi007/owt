@@ -10,7 +10,7 @@
 }
 
 :root {
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
     font-size: 10px;
     --misty-blue: #c3d6db;
     --blue-grotto: #276d9b;
@@ -168,3 +168,10 @@ img {
 .underline {
     text-decoration: underline;
 }
+.heading-font-style{
+    font-family: "Roboto Slab", serif;
+  
+  }
+.paragraph-font-style{
+  font-family: "Encode Sans Expanded", sans-serif;
+  }

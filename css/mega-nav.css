@@ -5,18 +5,15 @@
     color: var(--blue-grotto);
 }
 
-.main .logo-image{
+.main .logo-image {
     position: absolute;
-        top: 5px;
-        left: 10px;
-        width: 150px;
-        height: 93px;
-        z-index: 1;
+    top: 5px;
+    left: 10px;
+    width: 150px;
+    height: 93px;
+    z-index: 1;
 }
 
-.main .logo-image img{
+.main .logo-image img {
     width: 50%;
 }
-
-
-

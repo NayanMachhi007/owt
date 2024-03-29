@@ -29,6 +29,8 @@
 
 .secondary-navigation ul li .sec-nav-link.active{
     color:var(--blue-grotto);
+    /* text-decoration: underline; */
+    /* text-underline-position: left; */
 }
 
 .secondary-navigation ul li .sec-nav-link::after {
@@ -63,6 +65,7 @@
     visibility: hidden;
     transition: 0s;
     overflow: hidden;
+    background-color: var(--white);
 
 }
 

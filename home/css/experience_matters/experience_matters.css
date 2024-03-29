@@ -1,0 +1,232 @@
+/* experience_matters start */
+.experience_matters {
+    padding: 50px 0px;
+    width: 100%;
+    height: auto;
+    font-family: "Poppins ", sans-serif;
+    /* overflow: hidden; */
+}
+
+.experience_matters .experience_matters_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+/* .experience_matters_flex::before{
+    content: "Hello";
+    position: absolute;
+    top: 0;
+} */
+
+/* .experience_matters .experience_matters_outerlayer {
+    background-image: url("/component-images/experience_matters/dot_reverse_pattern.svg");
+    background-repeat: no-repeat;
+    height: auto;
+    width: 97%;
+
+} */
+
+/* achievements */
+.achievements {
+    padding: 70px 0px;
+}
+
+/* achievements_images */
+.achievements_images {
+    /* background-color: aqua; */
+    height: 550px;
+    width: 94%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.experience_center_img {
+    position: absolute;
+    left: 5%;
+    height: 400px;
+    width: 95%;
+    border-radius: 0 345px 345px 0;
+    /* background-color: aliceblue; */
+    animation: achievment 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.achievements_images::before{
+    content: " ";
+    position: absolute;
+    top: -50%;
+    left: -30%;
+    background-image: url(../nav-img/owt-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: 150%;
+    width: 150%;
+    opacity: 0.1;
+    
+}
+
+
+.experience_center_img>img {
+    /* border-radius: 0 345px 345px 0;
+    object-fit: cover; */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.35);
+    z-index: 1;
+    animation: wrep 10s infinite;
+    width: 100%;
+    height: 500px;
+    max-width: unset;
+    z-index: 3;
+}
+
+@keyframes achievment {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: 5%;
+
+    }
+}
+
+.experience_bottom_img {
+    position: absolute;
+    left: 4%;
+    bottom: 0;
+    width: 265px;
+    height: 265px;
+    border-radius: 300px 0 300px 300px;
+    /* background-color: rgb(56, 110, 158); */
+    animation: achievment1 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+
+.experience_bottom_img>img {
+    object-fit: cover;
+    border-radius: 300px 0 300px 300px;
+}
+
+@keyframes wrep {
+    0% {
+        border-radius: 55% 45% 38% 62% / 52% 57% 43% 48%;
+    }
+
+    35% {
+        border-radius: 67% 33% 39% 61% / 48% 63% 37% 52%;
+    }
+
+    70% {
+        border-radius: 40% 60% 62% 38% / 32% 41% 59% 68%;
+    }
+
+    100% {
+        border-radius: 55% 45% 38% 62% / 52% 57% 43% 48%;
+    }
+}
+
+/* @keyframes achievment1 {
+    from {
+        bottom: 100%;
+    }
+
+    to {
+        bottom: 0%;
+
+    }
+} */
+/* //achievements_images */
+/* achievements_content */
+.achievements_content {
+    /* background-color: rgb(245, 186, 168); */
+    height: 550px;
+    width: 90%;
+    padding: 20px 50px;
+}
+
+.achievements_content_heading>h2 {
+    display: inline-block;
+    font-size: 2rem;
+    margin-left: 35px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.achievements_content_heading>h2::after {
+    content: '';
+    width: 40px;
+    height: 2px;
+    display: block;
+    margin-left: -43px;
+    margin-top: -8px;
+    background: linear-gradient(90deg, rgba(66, 115, 147, 1) 17%, rgba(83, 150, 193, 1) 46%, rgba(4, 121, 195, 1) 71%, rgba(0, 212, 255, 1) 100%);
+    -webkit-transition: all 0.3s;
+}
+
+.achievements_content_heading>h2::before {
+    content: '';
+    width: 20px;
+    height: 2px;
+    display: block;
+    margin-left: -23px;
+    margin-bottom: -6px;
+    background: linear-gradient(90deg, rgba(66, 115, 147, 1) 17%, rgba(83, 150, 193, 1) 46%, rgba(4, 121, 195, 1) 71%, rgba(0, 212, 255, 1) 100%);
+    -webkit-transition: all 0.3s;
+
+}
+
+.achievements_content_heading>h3 {
+    font-size: 3.5rem;
+    line-height: 1.55;
+    font-weight: 700;
+
+}
+
+.achievements_content_heading>p {
+    line-height: 1.6;
+    color: #666766;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.achievements_content_progress {
+    margin-top: 2rem;
+    height: 330px;
+    width: 100%;
+    /* background-color: #5898d0; */
+}
+
+.achievements_content_progress .progress {
+    height: 140px;
+    width: 95%;
+    margin: 14px 0px;
+    background-color: #f6fcf7;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px black;
+    border-radius: 12px;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.achievements_content_progress .progress>h3 {
+    font-size: 4rem;
+    color: #000000;
+    font-weight: 700;
+}
+
+.achievements_content_progress .progress>p {
+    color: #016FBD;
+    line-height: 1.2;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* //achievements_content */
+/* // achievements */
+/* experience_matters end */

@@ -1,0 +1,185 @@
+
+.home-about-us-content{
+    margin: 5rem 0;
+}
+a{
+    text-decoration: none;
+}
+.home-about-us-content__container{
+    width: 100%;
+    overflow: hidden;
+
+}
+.home-about-us-content__container_details_container{
+    position: relative;
+    width: 100%;
+    height: 50rem;
+}
+.home-about-us-content__container-info__heading{
+    font-size: 3.5rem;
+    font-family: "Roboto Slab", serif;
+
+}
+.home-about-us-content__container-info__para{
+    font-size: 1.6rem;
+    font-family: "Encode Sans Expanded", sans-serif;
+    color: #666766;
+}
+.home-about-us-content__container-info{
+    background-color: var(--white);
+    position: absolute;
+    top: 11%;
+    z-index: 1;
+    width: 40rem;
+    height: 40rem;
+    padding: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px #000000;
+    left: -41rem;
+    animation-name: homeAboutUsContentContainerInfo;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+}
+@keyframes homeAboutUsContentContainerInfo {
+    0%{
+        top: 11%;
+        left: -41rem;
+
+    }
+    100%{
+        top: 11%;
+        left: 1rem;
+    }
+}
+.home-about-us-content__container-info__heading-container{
+    padding: 0 0 1rem 0;
+}
+.home-about-us-content__container-info__heading{
+    position: relative;
+    /* overflow: hidden; */
+    padding-bottom: 1rem;
+}
+.home-about-us-content__container-info__heading::before{
+    content: " ";
+    position: absolute;
+    width: 7rem;
+    height: 0.3rem;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(66,115,147,1) 17%, rgba(83,150,193,1) 46%, rgba(4,121,195,1) 71%, rgba(0,212,255,1) 100%);    
+}
+.home-about-us-content-img-container{
+    width: 0%;
+    height: 0.2rem;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(100%,-50%);
+    transition: 1s ease;
+    animation-name: homeAboutUsContentImgContainer ;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+}
+
+@keyframes homeAboutUsContentImgContainer {
+    0%{
+        right: 50%;
+        top: 50%;
+        width: 0%;
+        height: 0.2rem;
+        opacity: 0;
+    }
+    100%{
+        
+        right: 80%;
+        width: 80%;
+        height: 50.2rem;
+        opacity: 1;
+    }
+}
+
+.home-about-us-content-img-container video{
+    width: 100%;
+    height: 100%;
+}
+.home-about-us-content__container{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+}
+
+/* btn start  */
+.home-primary_btn_division{
+    margin-top: 1rem;
+    display: flex;
+    /* justify-content: center; */
+    font-family: "Encode Sans Expanded", sans-serif;
+
+}
+.service-component-btn{
+    justify-content: center;
+    margin: 6rem 0 0 0;
+
+}
+.home-primary_btn_container{
+    display: flex;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.5rem 2.5rem;
+    gap: .5rem;
+    border-radius: 0.5rem;   
+    background-color: #016FBD;
+}
+.home-primary_container_btn-txt{
+    color: white;
+}
+.home-primary_btn_container:hover{
+    background-color: black;
+}
+.home-primary_btn_container:hover .home-primary_container_btn-txt{
+    /* color: #016FBD; */
+}
+.home-primary__btn-icon{
+    width: 3.5rem;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+.home-primary__btn-icon::before{
+    content: "\f30b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 2rem;
+    position: absolute;
+    top: 0.2rem;
+    left:  -2.5rem;
+
+}
+.home-primary_btn_container:hover .home-primary__btn-icon::before{   
+    left:  1rem; 
+    transition: 0.2s ease;  
+    color: white;
+
+}
+.home-primary__btn-icon::after{
+    content: "\f30b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 2rem;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.4rem;
+}
+.home-primary_btn_container:hover .home-primary__btn-icon::after{   
+    right: -2.5rem; 
+    transition: 0.2s ease;  
+    color: #016FBD;
+
+}
