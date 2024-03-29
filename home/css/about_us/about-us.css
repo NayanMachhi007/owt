@@ -68,7 +68,8 @@ a{
     height: 0.3rem;
     bottom: 0;
     left: 0;
-    background: linear-gradient(90deg, rgba(66,115,147,1) 17%, rgba(83,150,193,1) 46%, rgba(4,121,195,1) 71%, rgba(0,212,255,1) 100%);    
+    background-color: #12286D;
+    /* background: linear-gradient(90deg, rgba(66,115,147,1) 17%, rgba(83,150,193,1) 46%, rgba(4,121,195,1) 71%, rgba(0,212,255,1) 100%);     */
 }
 .home-about-us-content-img-container{
     width: 0%;
