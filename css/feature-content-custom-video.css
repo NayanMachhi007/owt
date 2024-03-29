@@ -143,9 +143,9 @@ a{
 .home-primary_btn_container:hover{
     background-color: black;
 }
-.home-primary_btn_container:hover .home-primary_container_btn-txt{
-    /* color: #016FBD; */
-}
+/* .home-primary_btn_container:hover .home-primary_container_btn-txt{
+    color: #016FBD;
+} */
 .home-primary__btn-icon{
     width: 3.5rem;
     position: relative;
