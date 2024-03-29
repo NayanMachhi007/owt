@@ -36,7 +36,7 @@ a{
     overflow: hidden;
     
 }
-.home-our-work-heading-level-two::before{
+/* .home-our-work-heading-level-two::before{
     content: " ";
     position: absolute;
     left: -6.5rem;
@@ -58,7 +58,7 @@ a{
     100%{
         left: 0;
     }
-}
+} */
 
 /* header end  */
 
@@ -128,10 +128,11 @@ a{
     content: " ";
     position: absolute;
     width: 100%;
-    height: 0.4rem;
+    height: 0.3rem;
     left: 0;
-    background: rgb(66,115,147);
-    background: linear-gradient(90deg, rgba(66,115,147,1) 17%, rgba(83,150,193,1) 46%, rgba(4,121,195,1) 71%, rgba(0,212,255,1) 100%);
+    /* background: rgb(66,115,147); */
+    background: var(--blue-grotto);
+    /* background: linear-gradient(90deg, rgba(66,115,147,1) 17%, rgba(83,150,193,1) 46%, rgba(4,121,195,1) 71%, rgba(0,212,255,1) 100%); */
 
 }
 .case-study_card_stats__heading{
