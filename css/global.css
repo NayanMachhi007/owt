@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -36,7 +40,7 @@
     --pale-silver: #D4C8B7;
     --spanish-gray: #9E9F9F;
     --anti-glash-white: #F2F2F2;
-    --lochmara:#016fbd;
+    --lochmara: #016fbd;
 }
 
 html {
@@ -45,6 +49,8 @@ html {
 
 body {
     font-size: 1.2rem;
+    font-family: "Roboto",sans-serif;
+    font-family: "Encode Sans Condensed",sans-serif;;
 }
 
 li {
@@ -168,10 +174,12 @@ img {
 .underline {
     text-decoration: underline;
 }
-.heading-font-style{
+
+.heading-font-style {
     font-family: "Roboto Slab", serif;
-  
-  }
-.paragraph-font-style{
-  font-family: "Encode Sans Expanded", sans-serif;
-  }
+
+}
+
+.paragraph-font-style {
+    font-family: "Encode Sans Expanded", sans-serif;
+}
