@@ -1,0 +1,48 @@
+.f-center {
+    display: flex;
+    align-items: center;
+}
+
+.f-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.heading-primary-color {
+    color: var(--lochmara);
+}
+
+.heading-red {
+    color: var(--cinnabar);
+    font-weight: 600;
+}
+
+.primary-heading-title {
+    font-size: var(--primary-heading-title);
+}
+
+.secondary-heading-title {
+    font-size: var(--secondary-heading-title);
+}
+
+.span-heading-dark-blue {
+    font-size: 1.8rem;
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+.bigtext {
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.secondary-heading {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--lochmara);
+    font-family: "Roboto", sans-serif;
+}
