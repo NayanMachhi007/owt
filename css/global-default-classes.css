@@ -13,8 +13,10 @@
 }
 
 .heading-red {
-    color: var(--cinnabar);
+    color: var(--lochmara);
     font-weight: 600;
+    display: inline-block;
+    padding: 1rem 0;
 }
 
 .primary-heading-title {
