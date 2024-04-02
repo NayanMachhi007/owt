@@ -34,6 +34,7 @@ a{
     font-family: "Roboto Slab", serif;
     position: relative;
     overflow: hidden;
+    padding: 0 1rem;
     
 }
 /* .home-our-work-heading-level-two::before{
@@ -68,16 +69,22 @@ a{
     padding: 5rem 0;
 }
 .home-our-work-section__details_sub-container__case-study-img_container{
-    width: 100%; 
+    /* width: 100%;  */
+    max-width: 64rem;
+    height: 33.5rem;
+    border-radius: 1rem;
+    /* border: 0.1rem solid #ffffff; */
     /* position: relative;    */
     /* overflow: hidden; */
 }
 .cash-study-img-align-right{
-    text-align: right;
+    display: flex;
+    justify-content: end;
+    /* text-align: right; */
 }
 .home-our-work-section__details_sub-container__case-study-img-1{
-    width: 64rem;
-    height: 33.5rem;
+    /* width: 64rem; */
+     width: 100%;
     border-radius: 1rem;
     border: 0.1rem solid #ffffff;
     /* position: absolute; */
@@ -87,6 +94,9 @@ a{
 /* img div end  */
 
 /* case-study-details container   */
+.home-our-work-section__details_sub-container_case-study-details_container{
+    padding: 0 1rem;
+}
 .case-study-detail-container__heading_container{
     font-size: 3rem;
 }
@@ -117,7 +127,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     row-gap: 4rem;
-    column-gap: 8.8rem;
+    column-gap: 16.5%;
     padding: 4rem 0;
 }
 .case-study-detail-container__card_details{
@@ -139,11 +149,36 @@ a{
     font-size: 4rem;
     line-height: 5.6rem;
 }
+.case-study_card_stats__heading-sign{
+    margin: 0 0.2rem 0 0.5rem;
+}
 .case-study_card_stats__para{
     font-size: 1.6rem;
     color: #666766;
 }
 /* <!-- case-study-states end --> */
-.even-card-home-our-work-section__details_sub-container__case-study-img-1{
+.even-first-img-aling{
+    display: flex;
+    justify-content: start;
+}
+/* .even-card-home-our-work-section__details_sub-container__case-study-img-1{
     text-align: right;
+} */
+
+@media screen and (max-width: 768px ) {
+    /* .col-sm-12{
+        width:100%;
+    } */
+    .home-our-work-section__details_sub-container__case-study-img-1{
+        padding: 0 1rem;
+    }
+    .case-study_card_stats__heading{
+     font-size: 3rem;   
+    }
+    .cash-study-img-align-right{
+        justify-content: center;
+    }
+    .even-first-img-aling{
+        justify-content: center;
+    }
 }
