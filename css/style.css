@@ -14,3 +14,7 @@
 @import "../css/video-component.css";
 @import "../css/custom-feature-card.css";
 @import "../css/component-name.css";
+@import "../css/media-query-brackpoints\(mobile\).css";
+@import "../css//media-query-brackpoints\(laptop\).css";
+@import "../css/media-query-brackpoints\(largescreen\).css";
+@import "../css/media-query-brackpoints\(extra-large\).css";
