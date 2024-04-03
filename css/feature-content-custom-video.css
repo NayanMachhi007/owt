@@ -42,6 +42,14 @@ a{
     animation-delay: 2s;
     animation-timing-function: ease-out;
 }
+@media screen and (max-width:768px) {
+    .home-about-us-content__container-info{
+        width: 30rem;
+    }
+    .service-component-btn{
+        margin: 1rem 0 0 0 ;
+    }
+}
 @keyframes homeAboutUsContentContainerInfo {
     0%{
         top: 11%;
@@ -70,6 +78,10 @@ a{
     left: 0;
     background-color: #12286D;
     /* background: linear-gradient(90deg, rgba(66,115,147,1) 17%, rgba(83,150,193,1) 46%, rgba(4,121,195,1) 71%, rgba(0,212,255,1) 100%);     */
+}
+.home-about-us-content__container-info__para-container{
+    height: 14rem;
+    overflow: hidden;
 }
 .home-about-us-content-img-container{
     width: 0%;
@@ -126,7 +138,7 @@ a{
 }
 .service-component-btn{
     justify-content: center;
-    margin: 6rem 0 0 0;
+    margin: 5rem 0 0 0;
 
 }
 .home-primary_btn_container{
