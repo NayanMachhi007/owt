@@ -15,11 +15,17 @@
 .footer_layout_inner {
     width: 90%;
 }
+.wave_footer{
+    background-color: var(--lochmara);
+}
 
 /* footer_layout_inner_top */
 .footer_layout_inner_top {
     height: 70vh;
 
+}
+.wave_footer_layout{
+    color: var(--white);
 }
 
 .footer_layout_inner_top .heading {
