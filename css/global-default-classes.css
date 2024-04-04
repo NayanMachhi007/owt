@@ -48,3 +48,7 @@
     color: var(--lochmara);
     font-family: "Roboto", sans-serif;
 }
+
+.primary-para{
+    font-size: 1.6rem;
+}
