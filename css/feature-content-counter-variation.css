@@ -143,14 +143,27 @@ a{
     } */
     .home-our-work-section__details_sub-container__case-study-img-1{
         padding: 0 1rem;
+        transition: ease;
     }
     .case-study_card_stats__heading{
      font-size: 3rem;   
+     transition: ease;
+
     }
     .cash-study-img-align-right{
         justify-content: center;
+        transition: ease;
+
     }
     .even-first-img-aling{
         justify-content: center;
+        transition: ease;
+
+    }
+    .order-sm-2{
+        order: 2;
+    }
+    .order-sm-1{
+        order: 1;
     }
 }
