@@ -48,4 +48,12 @@
         width: 100%;
     }
 
+    .order-sm-1{
+        order: 1;
+    }
+
+    .order-sm-2{
+        order: 2;
+    }
+
 }
