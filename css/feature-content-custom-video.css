@@ -242,8 +242,39 @@ a {
             left: -150%;
         }
         100% {
-            top: 11%;
-            left: 20%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-70%);
         }
     }
+}
+@media screen and (max-width:425px){
+    
+    .home-about-us-content-img-container {
+        top: 63%;
+        left: 10%;
+        transition: 1s ease;
+        animation-name: homeAboutUsContentImgContainer;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+        animation-fill-mode: forwards;
+        opacity: 1;
+    }
+
+    .home-about-us-content__container {
+        width: 100%;
+        overflow: visible;
+    }
+    @keyframes homeAboutUsContentContainerInfo {
+        0% {
+            top: 11%;
+            left: -150%;
+        }
+        100% {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+
 }

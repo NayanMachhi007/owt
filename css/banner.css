@@ -74,12 +74,12 @@
     left: 20%;
     top: 50%;
     transform: translate(-10%, -50%);
-    width: 60rem;
+    /* width: 50rem; */
+    width: 90%;
     height: 10rem;
     text-align: left;
     }
     .banner .swiper .swiper-wrapper .swiper-slide .swiper-slide__content h1{
         font-size: 3.4rem;
-        width: 80%;
     }
 }
