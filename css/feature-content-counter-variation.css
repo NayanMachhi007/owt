@@ -140,10 +140,4 @@
         transition: ease;
 
     }
-    .order-sm-2{
-        order: 2;
-    }
-    .order-sm-1{
-        order: 1;
-    }
 }

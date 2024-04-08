@@ -17,6 +17,7 @@
 @import "../css/component-name.css";
 @import "../css/global-default-classes.css";
 @import "../css/grid.css";
+@import "../css/media-query\(mobile\)-global-class.css";
 @import "../css/media-query-brackpoints\(extra-large\).css";
 @import "../css/media-query-brackpoints\(largescreen\).css";
 @import "../css//media-query-brackpoints\(laptop\).css";
