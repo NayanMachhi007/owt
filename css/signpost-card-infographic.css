@@ -36,7 +36,7 @@
 
 /* animation img  start   */
 
-.home-services-working-process__info_container_img_animation_container{
+.home-services-working-process__info_container_img_animation_container_for_first_img{
     position: absolute;
     top: -10%;
     right: 10%;
@@ -51,10 +51,10 @@
     position: absolute;
     top: -10%;
     left: 5%;
-    animation-name:home_service_process_info_bg_img_animation;
+    /* animation-name:home_service_process_info_bg_img_animation;
     animation-duration: 8s;
     transition: ease;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
     transform: rotate(180deg);
 }
 @keyframes home_service_process_info_bg_img_animation{
@@ -182,6 +182,18 @@
     }
 }
 @media screen and (max-width:768px){
+    .home-services-working-process__info_container_img_animation_container_for_second_img{
+        /* display: none; */
+        /* position: absolute; */
+    top: 50%;
+    left: 5%;
+    animation-name:home_service_process_info_bg_img_animation_for_second_img;
+    animation-duration: 8s;
+    transition: ease;
+    animation-iteration-count: infinite;
+    transform: rotate(90deg,360deg);
+        
+    }
     .home-services-working-process__card-align-odd-card{
         margin: 2rem 0;
     }
@@ -190,5 +202,16 @@
     }
     .background-svg{
         display: none;
+    }
+    @keyframes home_service_process_info_bg_img_animation_for_second_img{
+        0%{
+            top: 50%;
+        }
+        50%{
+            top:65%;
+        }
+        100%{
+            top: 50%;
+        }
     }
 }

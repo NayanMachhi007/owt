@@ -1,20 +1,4 @@
-/* Roboto Slab
 
-.roboto-slab-<uniquifier> {
-  font-family: "Roboto Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-roboto slab end 
-
-Encode Sans Expanded
-{
-font-family: "Encode Sans Expanded", sans-serif;
-} */
-a{
-    text-decoration: none;
-}
 
 .home_our-work-component-section{
     padding: 3rem  0;
@@ -112,9 +96,7 @@ a{
     width: 100%;
     height: 0.3rem;
     left: 0;
-    /* background: rgb(66,115,147); */
     background: var(--blue-grotto);
-    /* background: linear-gradient(90deg, rgba(66,115,147,1) 17%, rgba(83,150,193,1) 46%, rgba(4,121,195,1) 71%, rgba(0,212,255,1) 100%); */
 
 }
 .case-study_card_stats__heading{
@@ -133,14 +115,12 @@ a{
     display: flex;
     justify-content: start;
 }
-/* .even-card-home-our-work-section__details_sub-container__case-study-img-1{
-    text-align: right;
-} */
+
 
 @media screen and (max-width: 768px ) {
-    /* .col-sm-12{
-        width:100%;
-    } */
+    .home_our-work-component-section{
+        margin-top: 12rem;
+    }
     .home-our-work-section__details_sub-container__case-study-img-1{
         padding: 0 1rem;
         transition: ease;

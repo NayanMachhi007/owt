@@ -1,4 +1,4 @@
-let swiper = new Swiper(".swiper-1", {
+let swiper = new Swiper(".swiper-1", {   
   spaceBetween: 30,
   centeredSlides: true,
   autoplay: {

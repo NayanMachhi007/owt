@@ -1,11 +1,9 @@
 /* footer section start  */
 .footer {
-    height: 90vh;
     width: 100%;
 }
 
 .footer .footer_layout {
-    height: 90vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -18,16 +16,32 @@
     background-color: var(--lochmara);
 }
 
-/* footer_layout_inner_top */
-.footer_layout_inner_top {
-    height: 70vh;
 
+/* footer_layout_inner_top */
+
+.wave_top_text{
+    padding: 0 0;
 }
-.wave_top_text>ul>li {
+.wave_top_text>ul>li{
     font-size: 1.4rem;
     line-height: 1.8rem;
 
 }
+.wave_footer_layout_inner_top{
+    margin-bottom: 3rem;
+
+}
+.wave_bottom_text{
+    margin-top: 3rem;
+
+}
+
+.wave_bottom_text>ul{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5rem;
+}
+
 .wave_bottom_text>ul>li{
     font-size: 1.4rem;
     line-height: 1.8rem;
@@ -35,12 +49,11 @@
 
 .wave_footer_layout{
     color: var(--white);
-    padding: 3rem 0;
+    padding: 5rem 1rem;
 }
 
 .footer_layout_inner_top .heading {
     padding: 70px 0px;
-    height: 70vh;
     font-size: 40px;
     font-family: roboto, slab;
     font-weight: 600;
@@ -50,7 +63,6 @@
 
 .footer_layout_inner_top .top_texts{
     padding: 70px 0px 0px 35px;
-    height: 70vh;
 }
 .footer_layout_inner_top .top_text {
     font-size: 14px;
@@ -60,9 +72,10 @@
     font-size: 17px;
     font-weight: 600;
 }
-
+.wave_footer_layout_inner_bottom{
+    padding: 1rem 0;
+}
 .footer_layout_inner_bottom {
-    height: 20vh;
     border-top: 1px solid #141414;
     font-family: Encode, Sans, Expanded;
 }
@@ -93,8 +106,34 @@
     text-align: right;
 }
 .wave_bottom_text1{
-    height: 15rem;
+    margin-top: 3rem;
     display: flex;
     justify-content: end;
     align-items: end;
 }
+.wave_footer_layout_inner>hr{
+    height: 0.1rem;
+    background-color: var(--white);
+}
+
+
+@media screen and (max-width:768px) {
+    .wave_top_text{
+        padding: 1rem 0;
+    }
+    .wave_top_text>ul{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 1rem;
+        row-gap: 0.5rem;
+    }
+    
+       .wave_bottom_text>ul{
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 1rem;
+        transition: ease ;
+    }
+}
+
