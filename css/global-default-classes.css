@@ -52,3 +52,11 @@
 .primary-para{
     font-size: 1.6rem;
 }
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
