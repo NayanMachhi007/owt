@@ -39,9 +39,9 @@
 
 .we_serve_content{
     /* background-color: rgb(245, 186, 168); */
-    height: 550px;
+    /* height: 550px; */
     width: 90%;
-    padding: 20px 50px;
+    padding: 180px 50px;
     display: flex;
     align-items: center;
 }
@@ -88,7 +88,6 @@
 /* we_serve_images */
 .we_serve_images{
     /* background-color: aqua; */
-    height: 550px;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -160,3 +159,8 @@ transition-duration: .2s;
         overflow: clip;
     }
 /* industry_we_serve end */
+@media screen and (max-width:768px ) {
+    .we_serve_content{
+    padding: 0 50px;
+    }
+}

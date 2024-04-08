@@ -43,8 +43,8 @@
 
 .experience_center_img {
     position: absolute;
-    left: 5%;
-    height: 400px;
+    /* left: 5%; */
+    /* height: 400px; */
     width: 95%;
     border-radius: 0 345px 345px 0;
     /* background-color: aliceblue; */
@@ -52,12 +52,13 @@
     animation-fill-mode: forwards;
     animation-timing-function: linear;
 }
+
 .achievements_images::before{
     content: " ";
     position: absolute;
     top: -50%;
     left: -30%;
-    background-image: url(../nav-img/owt-logo.png);
+    background-image: url(../component-images/feature-content-keyfacts/owt-logo.png);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
@@ -230,3 +231,9 @@
 /* //achievements_content */
 /* // achievements */
 /* experience_matters end */
+@media screen and (max-width : 768px) {
+    
+    .experience_center_img>img{
+        height: 45rem;
+    }
+}

@@ -1,4 +1,5 @@
 @import "../css/global.css";
+@import "../css/global-default-classes.css";
 @import "../css/feature-content-animation.css";
 @import "../css/first-lvl-navigation.css";
 @import "../css/secondary-lvl-navigation.css";
@@ -16,8 +17,8 @@
 @import "../css/component-name.css";
 @import "../css/global-default-classes.css";
 @import "../css/grid.css";
-@import "../css/media-query-brackpoints\(mobile\).css";
-@import "../css//media-query-brackpoints\(laptop\).css";
-@import "../css/media-query-brackpoints\(largescreen\).css";
 @import "../css/media-query-brackpoints\(extra-large\).css";
+@import "../css/media-query-brackpoints\(largescreen\).css";
+@import "../css//media-query-brackpoints\(laptop\).css";
+@import "../css/media-query-brackpoints\(mobile\).css";
 
