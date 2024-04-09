@@ -11,21 +11,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: relative; */
+    padding: 0 0.4rem;
 }
-/* .experience_matters_flex::before{
-    content: "Hello";
-    position: absolute;
-    top: 0;
-} */
 
-/* .experience_matters .experience_matters_outerlayer {
-    background-image: url("/component-images/experience_matters/dot_reverse_pattern.svg");
-    background-repeat: no-repeat;
-    height: auto;
-    width: 97%;
-
-} */
 
 /* achievements */
 .achievements {
@@ -34,7 +22,6 @@
 
 /* achievements_images */
 .achievements_images {
-    /* background-color: aqua; */
     height: 550px;
     width: 94%;
     position: relative;
@@ -43,11 +30,8 @@
 
 .experience_center_img {
     position: absolute;
-    /* left: 5%; */
-    /* height: 400px; */
     width: 95%;
     border-radius: 0 345px 345px 0;
-    /* background-color: aliceblue; */
     animation: achievment 1s;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
@@ -70,8 +54,7 @@
 
 
 .experience_center_img>img {
-    /* border-radius: 0 345px 345px 0;
-    object-fit: cover; */
+    
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.35);
     z-index: 1;
@@ -100,7 +83,6 @@
     width: 265px;
     height: 265px;
     border-radius: 300px 0 300px 300px;
-    /* background-color: rgb(56, 110, 158); */
     animation: achievment1 1s;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
@@ -130,20 +112,10 @@
     }
 }
 
-/* @keyframes achievment1 {
-    from {
-        bottom: 100%;
-    }
 
-    to {
-        bottom: 0%;
-
-    }
-} */
 /* //achievements_images */
 /* achievements_content */
 .achievements_content {
-    /* background-color: rgb(245, 186, 168); */
     height: 550px;
     width: 90%;
     padding: 20px 50px;
@@ -204,13 +176,14 @@
 .achievements_content_progress .progress {
     height: 140px;
     width: 95%;
-    margin: 14px 0px;
+    margin: 0.9rem 0;
     background-color: #f6fcf7;
     box-sizing: border-box;
     box-shadow: 0 0 5px black;
     border-radius: 12px;
     padding: 30px 15px;
     text-align: center;
+    overflow: hidden;
 }
 
 .achievements_content_progress .progress>h3 {
@@ -226,14 +199,21 @@
     font-size: 1.8rem;
     font-weight: 600;
     text-transform: capitalize;
+    /* width: 50%; */
+    text-align: center;
 }
 
 /* //achievements_content */
 /* // achievements */
 /* experience_matters end */
 @media screen and (max-width : 768px) {
-    
+    .achievements_content_progress .progress>h3 {
+        font-size: 3rem;
+        color: #000000;
+        font-weight: 700;
+    }
     .experience_center_img>img{
         height: 45rem;
     }
+    
 }

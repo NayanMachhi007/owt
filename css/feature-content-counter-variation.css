@@ -82,7 +82,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    row-gap: 4rem;
+    row-gap: 2rem;
     column-gap: 16.5%;
     padding: 4rem 0;
 }
@@ -102,6 +102,7 @@
 .case-study_card_stats__heading{
     font-size: 4rem;
     line-height: 5.6rem;
+    padding-top: 0.5rem;
 }
 .case-study_card_stats__heading-sign{
     margin: 0 0.2rem 0 0.5rem;
@@ -124,6 +125,17 @@
     .home-our-work-section__details_sub-container__case-study-img-1{
         padding: 0 1rem;
         transition: ease;
+    }
+    .case-study-detail-container__card_container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+        column-gap: 16.5%;
+        padding: 4rem 0;
+    }
+    .our-work-section__sub_container__case-study-detail-container{
+        margin-top: 1.5rem;
     }
     .case-study_card_stats__heading{
      font-size: 3rem;   
