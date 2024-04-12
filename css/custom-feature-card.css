@@ -41,14 +41,14 @@
     /* background-color: rgb(245, 186, 168); */
     /* height: 550px; */
     width: 90%;
-    padding: 180px 50px;
+    padding: 18rem 1rem;
     display: flex;
     align-items: center;
 }
 .we_serve_content_heading>h2{
     display: inline-block;
     font-size: 2rem;
-    margin-left: 35px;
+    margin-left: 3.5rem;
     text-transform: uppercase;
 }
 .we_serve_content_heading>h2::after{

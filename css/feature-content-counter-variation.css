@@ -120,7 +120,7 @@
 
 @media screen and (max-width: 768px ) {
     .home_our-work-component-section{
-        margin-top: 12rem;
+        margin-top: 20rem;
     }
     .home-our-work-section__details_sub-container__case-study-img-1{
         padding: 0 1rem;
@@ -159,3 +159,11 @@
         order: 1;
     }
 }
+
+@media screen and (max-width : 425px) {
+    
+    .home_our-work-component-section{
+        margin-top: 10rem;
+    }
+}
+

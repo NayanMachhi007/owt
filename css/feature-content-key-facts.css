@@ -215,5 +215,28 @@
     .experience_center_img>img{
         height: 45rem;
     }
-    
+    .achievements_content_progress{
+        padding: 0 8rem;
+    }
+    .achievements_content_progress .progress{
+        box-shadow: 0 0 0.2rem black;
+        width: 17rem;
+        /* 0 0 5px black */
+    }
+}
+@media screen and (max-width : 425px) {
+    .achievements_content{
+        padding: 2rem;
+    }
+    .achievements_content_progress{
+        padding: 0;
+    }
+    .achievements_content_progress .progress{
+        box-shadow: 0 0 0.2rem black;
+        width: 17rem;
+        /* 0 0 5px black */
+    }
+    .experience_matters .experience_matters_flex{
+        padding: 0 0.8rem;
+    }
 }
