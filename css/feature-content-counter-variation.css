@@ -1,7 +1,7 @@
 
 
 .home_our-work-component-section{
-    padding: 3rem  0;
+    padding: 3rem  2rem;
     /* background-image: url(https://img.freepik.com/free-vector/white-elegant-texture-background-style_23-2148432200.jpg?w=740&t=st=1710765419~exp=1710766019~hmac=b90cfb547e4c95247a7c16195d27a5b081e02e56b25db6c1ed38f59d3589c816); */
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
@@ -29,7 +29,7 @@
 }
 .home-our-work-section__details_sub-container__case-study-img_container{
     /* width: 100%;  */
-    max-width: 64rem;
+    /* max-width: 64rem; */
     height: 33.5rem;
     border-radius: 1rem;
     
@@ -122,6 +122,9 @@
     .home_our-work-component-section{
         margin-top: 20rem;
     }
+    .home-our-work-section__header_container{
+        text-align: center;
+    }
     .home-our-work-section__details_sub-container__case-study-img-1{
         padding: 0 1rem;
         transition: ease;
@@ -164,6 +167,19 @@
     
     .home_our-work-component-section{
         margin-top: 10rem;
+    }
+    .home-our-work-section__header_container{
+        text-align: center;
+    }
+    .cash-study-img-align-right{
+        justify-content: center;
+        transition: ease;
+
+    }
+    .even-first-img-aling{
+        justify-content: center;
+        transition: ease;
+
     }
 }
 

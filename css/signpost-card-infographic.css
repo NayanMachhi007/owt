@@ -194,6 +194,9 @@
     transform: rotate(90deg,360deg);
         
     }
+    .home-services-working-process__header__para{
+        padding: 0 1rem;
+    }
     .home-services-working-process__card-align-odd-card{
         margin: 2rem 0;
     }
