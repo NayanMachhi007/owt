@@ -334,7 +334,10 @@
         margin: auto;
     }
     .experince_element>h3{
-     font-size: 2.5rem;   
+     font-size: 3.5rem;   
+    }
+    .experince .experince_element {
+        padding: 1rem;
     }
     
 }

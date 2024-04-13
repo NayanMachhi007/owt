@@ -1,6 +1,7 @@
 /* experience_matters start */
 .experience_matters {
-    padding: 50px 0px;
+    margin: 5rem 0;
+    /* padding: 50px 0px; */
     width: 100%;
     height: auto;
     font-family: "Poppins ", sans-serif;
@@ -17,7 +18,7 @@
 
 /* achievements */
 .achievements {
-    padding: 70px 0px;
+    padding: 1rem 0rem;
 }
 
 /* achievements_images */
@@ -116,7 +117,6 @@
 /* //achievements_images */
 /* achievements_content */
 .achievements_content {
-    height: 550px;
     width: 90%;
     padding: 20px 50px;
 }
@@ -124,7 +124,7 @@
 .achievements_content_heading>h2 {
     display: inline-block;
     font-size: 2rem;
-    margin-left: 35px;
+    margin-left: 4.5rem;
     text-transform: uppercase;
     color: #000000;
 }
@@ -214,6 +214,27 @@
     }
     .experience_center_img>img{
         height: 45rem;
+    }
+    .achievements_content_progress{
+        padding: 0 8rem;
+    }
+    .achievements_content_progress .progress{
+        box-shadow: 0 0 0.2rem black;
+        width: 17rem;
+        /* 0 0 5px black */
+    }
+}
+@media screen and (max-width : 425px) {
+    .achievements_content{
+        padding: 1rem;
+    }
+    .achievements_content_progress{
+        padding: 0;
+    }
+    .achievements_content_progress .progress{
+        box-shadow: 0 0 0.2rem black;
+        width: 17rem;
+        /* 0 0 5px black */
     }
     
 }

@@ -1,6 +1,6 @@
-.home-about-us-content {
+/* .home-about-us-content {
     margin: 5rem 0;
-}
+} */
 
 a {
     text-decoration: none;
@@ -31,11 +31,11 @@ a {
 .home-about-us-content__container-info {
     background-color: var(--white);
     position: absolute;
-    top: 11%;
+    top: 5%;
     left: -150%;
     z-index: 1;
-    width: 40rem;
-    height: 40rem;
+    width: 36rem;
+    height: 36rem;
     padding: 4rem;
     border-radius: 1rem;
     box-shadow: 0 0 5px #000000;
@@ -53,7 +53,7 @@ a {
     }
 
     100% {
-        top: 11%;
+        top: 15%;
         left: 1%;
     }
 }
@@ -78,7 +78,7 @@ a {
 }
 
 .home-about-us-content__container-info__para-container {
-    height: 15rem;   
+    height: 10.7rem;   
     overflow: hidden;
 }
 
@@ -197,7 +197,6 @@ a {
     color: #016FBD;
 
 }
-
 @media screen and (max-width:992px) {
     .home-about-us-content__container-info {
         width: 35rem;
@@ -205,25 +204,29 @@ a {
 
     }
 }
-
 @media screen and (max-width:768px) {
     .home-about-us-content__container-info {
-        width: 30rem;
-        height: 35rem;
+        width: 50rem;
+        height: 30rem;
         transition: ease;
         animation-name: homeAboutUsContentContainerInfo;
         animation-duration: 2s;
         animation-fill-mode: forwards;
         animation-delay: 2s;
         animation-timing-function: ease-out;
+        box-shadow: 0 0 2px #000000;
+
     }
     .service-component-btn{
         margin-top: 2rem;
     }
 
     .home-about-us-content-img-container {
-        top: 63%;
-        left: 10%;
+        /* top: 64%; */
+        /* left: 10%; */
+        top : 50% ; 
+        left: 50%;
+        transform: translate(-50%,15%);
         transition: 1s ease;
         animation-name: homeAboutUsContentImgContainer;
         animation-duration: 2s;
@@ -231,7 +234,7 @@ a {
         animation-fill-mode: forwards;
         opacity: 1;
     }
-
+    
     .home-about-us-content__container {
         width: 100%;
         overflow: visible;
@@ -248,11 +251,30 @@ a {
         }
     }
 }
+
+
 @media screen and (max-width:425px){
-    
+
+    .home-about-us-content__container-info {
+        width: 30rem;
+        height: 32rem;
+        transition: ease;
+        animation-name: homeAboutUsContentContainerInfo;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-delay: 2s;
+        animation-timing-function: ease-out;
+        box-shadow: 0 0 2px #000000;
+
+    }
+    .home-about-us-content__container-info__para-container{
+    height: 9.8rem;   
+
+    }
     .home-about-us-content-img-container {
-        top: 63%;
-        left: 10%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,10%);
         transition: 1s ease;
         animation-name: homeAboutUsContentImgContainer;
         animation-duration: 2s;
