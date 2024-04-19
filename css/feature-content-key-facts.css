@@ -1,18 +1,17 @@
 /* experience_matters start */
 .experience_matters {
     margin: 5rem 0;
-    /* padding: 50px 0px; */
     width: 100%;
     height: auto;
     font-family: "Poppins ", sans-serif;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .experience_matters .experience_matters_flex {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 0.4rem;
+    padding: 1rem 1rem;
 }
 
 
@@ -43,7 +42,7 @@
     position: absolute;
     top: -50%;
     left: -30%;
-    background-image: url(../component-images/feature-content-keyfacts/owt-logo.png);
+    /* background-image: url(../component-images/feature-content-keyfacts/owt-logo.png); */
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
